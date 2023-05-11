@@ -4,7 +4,7 @@ public class App {
         // Create object from pet class
        Shih-poo myPet = new Shih-poo();
 
-        myPet.bark();
+        myPet.howl();
         System.out.println(myPet.eyeColor);
         System.out.println(myPet.height);
         System.out.println(myPet.weight);
