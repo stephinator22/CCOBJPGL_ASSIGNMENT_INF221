@@ -10,36 +10,36 @@
 
 <AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #d8baff;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="LoginController">
    <children>
-      <Label layoutX="172.0" layoutY="21.0" text="Welcome to" textFill="#640d92">
+      <Label layoutX="125.0" layoutY="72.0" text="WELCOME TO MY DATING APP " textFill="#000000">
          <font>
-            <Font name="Castellar" size="37.0" />
+            <Font name="Berlin Sans FB Demi" size="24.0" />
          </font>
       </Label>
-      <Label layoutX="101.0" layoutY="165.0" text="Username:">
+      <Label layoutX="72.0" layoutY="156.0" text="Username:">
          <font>
-            <Font name="Castellar" size="18.0" />
+            <Font name="Berlin Sans FB Demi" size="18.0" />
          </font>
       </Label>
-      <Label layoutX="101.0" layoutY="216.0" text="Password:">
+      <Label layoutX="72.0" layoutY="206.0" text="Password:">
          <font>
-            <Font name="Castellar" size="18.0" />
+            <Font name="Berlin Sans FB Demi" size="18.0" />
          </font>
       </Label>
-      <TextField fx:id="mytextfield" layoutX="226.0" layoutY="164.0" prefHeight="25.0" prefWidth="224.0" promptText="Enter your Username" />
-      <PasswordField fx:id="mypasswordfield" layoutX="226.0" layoutY="215.0" prefHeight="25.0" prefWidth="224.0" promptText="Enter your Password" />
-      <Button fx:id="mybutton" layoutX="226.0" layoutY="275.0" mnemonicParsing="false" onAction="#login" prefHeight="42.0" prefWidth="113.0" text="LOGIN">
+      <TextField fx:id="mytextfield" layoutX="198.0" layoutY="153.0" prefHeight="27.0" prefWidth="203.0" promptText="Enter your Username" />
+      <PasswordField fx:id="mypasswordfield" layoutX="198.0" layoutY="206.0" prefHeight="27.0" prefWidth="203.0" promptText="Enter your Password" />
+      <Button fx:id="mybutton" layoutX="240.0" layoutY="270.0" mnemonicParsing="false" onAction="#login" prefHeight="35.0" prefWidth="118.0" text="LOGIN">
          <font>
-            <Font name="Castellar" size="18.0" />
+            <Font name="Berlin Sans FB Demi" size="18.0" />
          </font>
       </Button>
-      <Label fx:id="mywarninglabel" layoutX="71.0" layoutY="327.0" text="Username and/or Password does not match!" textFill="#fc0202" visible="false">
+      <Label fx:id="mywarninglabel" layoutX="151.0" layoutY="334.0" text="Username and/or Password does not match!" textFill="#ff0000" visible="false">
          <font>
-            <Font name="Castellar" size="15.0" />
+            <Font name="Berlin Sans FB Demi" size="15.0" />
          </font>
       </Label>
       <Label layoutX="21.0" layoutY="60.0" text="ASTRAL DATE" textFill="#640d92">
          <font>
-            <Font name="Castellar" size="74.0" />
+            <Font name="Berlin Sans FB Demi" size="74.0" />
          </font>
       </Label>
    </children>
