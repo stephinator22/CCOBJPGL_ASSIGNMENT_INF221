@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="587.0" prefWidth="828.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.ClassmateController">
+   <children>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="430.0" layoutY="68.0">
+         <image>
+            <Image url="@names/Lu.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="254.0" layoutY="68.0">
+         <image>
+            <Image url="@names/simmone.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="34.0" layoutY="68.0">
+         <image>
+            <Image url="@names/josh.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="200.0" fitWidth="149.0" layoutX="655.0" layoutY="68.0">
+         <image>
+            <Image url="@names/Lance.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn1" layoutX="108.0" layoutY="294.0" mnemonicParsing="false" text="Josh" />
+      <Button fx:id="btn2" layoutX="303.0" layoutY="294.0" mnemonicParsing="false" text="Sim" />
+      <Button fx:id="btn3" layoutX="504.0" layoutY="294.0" mnemonicParsing="false" text="Lu" />
+      <Button fx:id="btn4" layoutX="704.0" layoutY="294.0" mnemonicParsing="false" text="Lance" />
+      <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="339.0" layoutY="327.0">
+         <image>
+            <Image url="@names/Justin.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="btn5" layoutX="388.0" layoutY="542.0" mnemonicParsing="false" text="Justin" />
+   </children>
+</AnchorPane>
