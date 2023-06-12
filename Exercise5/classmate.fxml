@@ -15,17 +15,17 @@
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="254.0" layoutY="68.0">
          <image>
-            <Image url="@names/ackzel.jpg" />
+            <Image url="@names/ackzel.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="34.0" layoutY="68.0">
          <image>
-            <Image url="@names/joan.jpg" />
+            <Image url="@names/joan.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="149.0" layoutX="655.0" layoutY="68.0">
          <image>
-            <Image url="@names/lhara.jpg" />
+            <Image url="@names/lhara.png" />
          </image>
       </ImageView>
       <Button fx:id="btn1" layoutX="108.0" layoutY="294.0" mnemonicParsing="false" text="Jherick" />
