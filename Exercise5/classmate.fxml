@@ -10,33 +10,33 @@
    <children>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="430.0" layoutY="68.0">
          <image>
-            <Image url="@names/Lu.png" />
+            <Image url="@names/arjay.png" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="254.0" layoutY="68.0">
          <image>
-            <Image url="@names/simmone.jpg" />
+            <Image url="@names/ackzel.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="200.0" layoutX="34.0" layoutY="68.0">
          <image>
-            <Image url="@names/josh.jpg" />
+            <Image url="@names/joan.jpg" />
          </image>
       </ImageView>
       <ImageView fitHeight="200.0" fitWidth="149.0" layoutX="655.0" layoutY="68.0">
          <image>
-            <Image url="@names/Lance.jpg" />
+            <Image url="@names/lhara.jpg" />
          </image>
       </ImageView>
-      <Button fx:id="btn1" layoutX="108.0" layoutY="294.0" mnemonicParsing="false" text="Josh" />
-      <Button fx:id="btn2" layoutX="303.0" layoutY="294.0" mnemonicParsing="false" text="Sim" />
-      <Button fx:id="btn3" layoutX="504.0" layoutY="294.0" mnemonicParsing="false" text="Lu" />
-      <Button fx:id="btn4" layoutX="704.0" layoutY="294.0" mnemonicParsing="false" text="Lance" />
+      <Button fx:id="btn1" layoutX="108.0" layoutY="294.0" mnemonicParsing="false" text="Jherick" />
+      <Button fx:id="btn2" layoutX="303.0" layoutY="294.0" mnemonicParsing="false" text="Arjay" />
+      <Button fx:id="btn3" layoutX="504.0" layoutY="294.0" mnemonicParsing="false" text="Lhara" />
+      <Button fx:id="btn4" layoutX="704.0" layoutY="294.0" mnemonicParsing="false" text="Ackzel" />
       <ImageView fitHeight="200.0" fitWidth="150.0" layoutX="339.0" layoutY="327.0">
          <image>
-            <Image url="@names/Justin.png" />
+            <Image url="@names/jherick.png" />
          </image>
       </ImageView>
-      <Button fx:id="btn5" layoutX="388.0" layoutY="542.0" mnemonicParsing="false" text="Justin" />
+      <Button fx:id="btn5" layoutX="388.0" layoutY="550.0" mnemonicParsing="false" text="Joan" />
    </children>
 </AnchorPane>
