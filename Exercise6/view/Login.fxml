@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: #2254ab;" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.LoginController">
+   <children>
+      <Label layoutX="63.0" layoutY="185.0" text="username: " textFill="#fff350">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <TextField fx:id="mytextfield" layoutX="183.0" layoutY="187.0" prefHeight="26.0" prefWidth="317.0" promptText="Enter your username here..." />
+      <PasswordField fx:id="mypasswordfield" layoutX="183.0" layoutY="222.0" prefHeight="26.0" prefWidth="317.0" promptText="Enter your password here..." />
+      <Button fx:id="mybutton" layoutX="248.0" layoutY="276.0" mnemonicParsing="false" onAction="#login" style="-fx-background-color: #fff350;" text="LOGIN" textFill="#2254ab">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="mywarninglabel" layoutX="145.0" layoutY="354.0" text="username and password does not match!" textFill="RED" visible="false">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="201.0" layoutY="79.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/ikea.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="67.0" layoutY="220.0" text="password:" textFill="#fff350">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
